@@ -1,4 +1,4 @@
-package com.example.to_doapp.utils
+package com.example.to_doapp.util
 
 sealed class RequestState<out T> {
     object Idle : RequestState<Nothing>()

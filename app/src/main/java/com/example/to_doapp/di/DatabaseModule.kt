@@ -3,7 +3,7 @@ package com.example.to_doapp.di
 import android.content.Context
 import androidx.room.Room
 import com.example.to_doapp.data.ToDoDatabase
-import com.example.to_doapp.utils.Constants.DATABASE_NAME
+import com.example.to_doapp.util.Constants.DATABASE_NAME
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

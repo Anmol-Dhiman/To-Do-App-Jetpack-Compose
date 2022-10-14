@@ -5,18 +5,19 @@ import androidx.compose.material.ExperimentalMaterialApi
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.navigation.NavHostController
-
-import com.example.to_doapp.utils.Constants.SPLASH_SCREEN
 import com.example.to_doapp.navigation.destinations.listComposable
 import com.example.to_doapp.navigation.destinations.splashComposable
 import com.example.to_doapp.navigation.destinations.taskComposable
+import com.example.to_doapp.ui.viewmodels.SharedViewModel
+import com.example.to_doapp.util.Constants.SPLASH_SCREEN
 import com.google.accompanist.navigation.animation.AnimatedNavHost
 
 @ExperimentalAnimationApi
 @ExperimentalMaterialApi
 @Composable
 fun SetupNavigation(
-    navController: NavHostController
+    navController: NavHostController,
+    sharedViewModel: SharedViewModel
 ) {
     val screen = remember(navController) {
         Screens(navController = navController)
@@ -30,10 +31,12 @@ fun SetupNavigation(
             navigateToListScreen = screen.splash
         )
         listComposable(
-            navigateToTaskScreen = screen.list
+            navigateToTaskScreen = screen.list,
+            sharedViewModel = sharedViewModel
         )
         taskComposable(
-            navigateToListScreen = screen.task
+            navigateToListScreen = screen.task,
+            sharedViewModel = sharedViewModel
         )
     }
 }

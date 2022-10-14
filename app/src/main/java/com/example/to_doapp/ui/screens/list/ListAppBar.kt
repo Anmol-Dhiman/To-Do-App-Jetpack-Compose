@@ -28,8 +28,8 @@ import com.example.to_doapp.components.DisplayAlertDialog
 import com.example.to_doapp.components.PriorityItem
 import com.example.to_doapp.ui.theme.*
 import com.example.to_doapp.ui.viewmodels.SharedViewModel
-import com.example.to_doapp.utils.Action
-import com.example.to_doapp.utils.SearchAppBarState
+import com.example.to_doapp.util.Action
+import com.example.to_doapp.util.SearchAppBarState
 
 @Composable
 fun ListAppBar(

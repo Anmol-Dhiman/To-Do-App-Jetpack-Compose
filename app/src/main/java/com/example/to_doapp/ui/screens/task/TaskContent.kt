@@ -11,11 +11,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.to_doapp.R
-
+import com.example.to_doapp.components.PriorityDropDown
 import com.example.to_doapp.data.models.Priority
 import com.example.to_doapp.ui.theme.LARGE_PADDING
 import com.example.to_doapp.ui.theme.MEDIUM_PADDING
-import com.example.to_doapp.components.PriorityDropDown
 
 @Composable
 fun TaskContent(

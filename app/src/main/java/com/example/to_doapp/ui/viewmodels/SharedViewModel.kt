@@ -9,10 +9,10 @@ import com.example.to_doapp.data.models.Priority
 import com.example.to_doapp.data.models.ToDoTask
 import com.example.to_doapp.data.repositories.DataStoreRepository
 import com.example.to_doapp.data.repositories.ToDoRepository
-import com.example.to_doapp.utils.Action
-import com.example.to_doapp.utils.Constants.MAX_TITLE_LENGTH
-import com.example.to_doapp.utils.RequestState
-import com.example.to_doapp.utils.SearchAppBarState
+import com.example.to_doapp.util.Action
+import com.example.to_doapp.util.Constants.MAX_TITLE_LENGTH
+import com.example.to_doapp.util.RequestState
+import com.example.to_doapp.util.SearchAppBarState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.*

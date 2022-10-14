@@ -1,6 +1,5 @@
 package com.example.to_doapp.ui.screens.splash
 
-
 import androidx.compose.animation.core.animateDpAsState
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
@@ -16,7 +15,6 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
-
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
@@ -25,7 +23,7 @@ import androidx.compose.ui.unit.dp
 import com.example.to_doapp.R
 import com.example.to_doapp.ui.theme.LOGO_HEIGHT
 import com.example.to_doapp.ui.theme.splashScreenBackground
-import com.example.to_doapp.utils.Constants.SPLASH_SCREEN_DELAY
+import com.example.to_doapp.util.Constants.SPLASH_SCREEN_DELAY
 import kotlinx.coroutines.delay
 
 @Composable
@@ -83,3 +81,8 @@ fun getLogo(): Int {
     }
 }
 
+@Composable
+@Preview
+private fun SplashScreenPreview() {
+    Splash(offsetState = 0.dp, alphaState = 1f)
+}

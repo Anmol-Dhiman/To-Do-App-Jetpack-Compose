@@ -1,9 +1,9 @@
 package com.example.to_doapp.navigation
 
 import androidx.navigation.NavHostController
-import com.example.to_doapp.utils.Action
-import com.example.to_doapp.utils.Constants.LIST_SCREEN
-import com.example.to_doapp.utils.Constants.SPLASH_SCREEN
+import com.example.to_doapp.util.Action
+import com.example.to_doapp.util.Constants.LIST_SCREEN
+import com.example.to_doapp.util.Constants.SPLASH_SCREEN
 
 class Screens(navController: NavHostController) {
     val splash: () -> Unit = {
