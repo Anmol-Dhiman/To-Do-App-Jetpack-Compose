@@ -21,7 +21,7 @@ import com.example.to_doapp.data.models.ToDoTask
 import com.example.to_doapp.ui.theme.topAppBarBackgroundColor
 import com.example.to_doapp.ui.theme.topAppBarContentColor
 import com.example.to_doapp.utils.Action
-import com.example.to_docompose.components.DisplayAlertDialog
+import com.example.to_doapp.components.DisplayAlertDialog
 
 @Composable
 fun TaskAppBar(

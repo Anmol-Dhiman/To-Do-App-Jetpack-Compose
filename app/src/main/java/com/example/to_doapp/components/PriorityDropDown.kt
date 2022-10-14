@@ -1,4 +1,4 @@
-package com.example.to_docompose.components
+package com.example.to_doapp.components
 
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.foundation.Canvas

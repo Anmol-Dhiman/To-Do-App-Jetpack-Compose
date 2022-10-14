@@ -1,4 +1,4 @@
-package com.example.to_docompose.components
+package com.example.to_doapp.components
 
 import androidx.compose.material.*
 import androidx.compose.runtime.Composable

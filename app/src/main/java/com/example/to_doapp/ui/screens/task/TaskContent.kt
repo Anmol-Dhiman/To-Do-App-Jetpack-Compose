@@ -1,4 +1,4 @@
-package com.example.to_docompose.ui.screens.task
+package com.example.to_doapp.ui.screens.task
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -15,7 +15,7 @@ import com.example.to_doapp.R
 import com.example.to_doapp.data.models.Priority
 import com.example.to_doapp.ui.theme.LARGE_PADDING
 import com.example.to_doapp.ui.theme.MEDIUM_PADDING
-import com.example.to_docompose.components.PriorityDropDown
+import com.example.to_doapp.components.PriorityDropDown
 
 @Composable
 fun TaskContent(

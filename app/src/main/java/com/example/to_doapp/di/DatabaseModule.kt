@@ -1,4 +1,4 @@
-package com.example.to_docompose.di
+package com.example.to_doapp.di
 
 import android.content.Context
 import androidx.room.Room

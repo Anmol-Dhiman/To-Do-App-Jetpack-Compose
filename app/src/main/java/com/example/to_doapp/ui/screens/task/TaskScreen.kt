@@ -1,4 +1,4 @@
-package com.example.to_docompose.ui.screens.task
+package com.example.to_doapp.ui.screens.task
 
 import android.content.Context
 import android.widget.Toast
@@ -6,10 +6,10 @@ import androidx.activity.compose.BackHandler
 import androidx.compose.material.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
-import com.example.to_docompose.data.models.Priority
-import com.example.to_docompose.data.models.ToDoTask
-import com.example.to_docompose.ui.viewmodels.SharedViewModel
-import com.example.to_docompose.util.Action
+import com.example.to_doapp.data.models.Priority
+import com.example.to_doapp.data.models.ToDoTask
+import com.example.to_doapp.ui.viewmodels.SharedViewModel
+import com.example.to_doapp.util.Action
 
 @Composable
 fun TaskScreen(
